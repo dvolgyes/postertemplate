@@ -1,0 +1,14 @@
+{
+"project_name": "scientific poster",
+"project_slug": "{{ cookiecutter.project_name.lower().replace(' ', '_').replace('-', '_') }}",
+"style": ["uioposter", "none"],
+"project_description": "description",
+"git_backend": ["github","bitbucket", "uio", "none"],
+"poster_file": "poster",
+"username": "user",
+"gitlatexdiff": "git-latexdiff",
+"gitlatexdiff_options": "--quiet",
+"tex_engine": "pdflatex",
+"bib_engine": "bibtex",
+"online_gitignore": "y"
+}
